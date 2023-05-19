@@ -2,10 +2,10 @@
     display:flex;
     justify-content:center;
     flex-direction:column;
-    height:100vh;
+    height:calc(100vh + 20px);
     width:100vw;
     background-size:cover;
-    margin-top:-80px;
+    margin-top:-82px;
     background-position:center;
     transition:all 0.5s ease-in-out;
     background-image:url('../../media/images/homepage.jpeg');
