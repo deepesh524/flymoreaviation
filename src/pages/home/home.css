@@ -1,0 +1,24 @@
+.homeContainer{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    height:100vh;
+    width:100vw;
+    background-size:cover;
+    margin-top:-80px;
+    background-position:center;
+    transition:all 0.5s ease-in-out;
+    background-image:url('../../media/images/homepage.jpeg');
+}
+
+.homeHeadingContainer{
+    margin-left: 3vw;
+    margin-top: 45vh;
+}
+
+
+@media (0px <= width <= 600px) {
+    .homeHeadingContainer{
+        margin-top: 0px;
+    }
+}
