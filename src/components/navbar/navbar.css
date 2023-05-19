@@ -20,7 +20,7 @@
 }
 .navHolder{
     display: flex;
-    justify-content: end;
+    justify-content: right;
     width: 60%;
     align-items: center;
     color: white;
