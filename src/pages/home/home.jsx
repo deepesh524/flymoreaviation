@@ -1,7 +1,5 @@
 import React from 'react'
 import './home.css';
-import PlayArrowIcon from '@mui/icons-material/PlayArrow';
-import { IconButton } from '@mui/material';
 
 const HomePage = () => {
     return (
