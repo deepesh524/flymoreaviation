@@ -17,7 +17,7 @@
 }
 
 
-@media (0px <= width <= 600px) {
+@media (0px <= width <= 700px) {
     .homeHeadingContainer{
         margin-top: 0px;
     }
