@@ -68,7 +68,7 @@
 }
 
 
-@media (0px<width<=700px) {
+@media (0px <= width <= 700px) {
     .courseItem{
         width: 100%;
         margin-top: 10px;
