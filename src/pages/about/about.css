@@ -1,0 +1,46 @@
+.aboutSectionContainer{
+    display: flex;
+    background-color: rgb(230,230,230);
+    color: black;
+    /* align-items: center; */
+    min-height: 300px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: calc(100vw - 6vw);
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.aboutSectionItem{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.aboutSectionHeading{
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.aboutSectionText{
+    color: rgb(100, 100, 100);
+    margin-top: 20px;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    line-height: 25px;
+}
+
+@media (0px<width<=600px) {
+    .aboutSectionItem{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+}
